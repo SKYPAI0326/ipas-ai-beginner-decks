@@ -1542,29 +1542,29 @@ html.mobile-reader .chrome-link { margin-left: 0 !important; align-self: flex-st
     <div>22 / 26 <a class="chrome-link" href="https://skypai0326.github.io/courses/courses/ipas-ai-beginner/CH3.html" target="_blank" rel="noopener" title="開啟 CH3 講義（新分頁）">講義 · CH 3</a></div>
   </div>
   <div class="frame">
-    <div class="kicker" data-anim>3.7 何時用哪個指標</div>
-    <h2 class="h-xl" data-anim>怕<em>誤報</em>看 Precision ／ 怕<em>漏報</em>看 Recall</h2>
-    <div class="split" style="margin-top:4vh;flex:1">
-      <div class="col" data-anim="left" style="gap:2.2vh">
-        <div class="kicker">Precision · 怕誤報</div>
-        <div class="h-md">不能冤枉好人</div>
+    <div class="kicker" data-anim style="margin-bottom:1.4vh">3.7 何時用哪個指標</div>
+    <h2 class="h-xl" data-anim style="font-size:4.4vw;line-height:1.05">怕<em>誤報</em>看 Precision ／ 怕<em>漏報</em>看 Recall</h2>
+    <div class="split" style="margin-top:2vh;flex:1;gap:3vw">
+      <div class="col" data-anim="left" style="gap:1.4vh">
+        <div class="kicker" style="margin-bottom:0">Precision · 怕誤報</div>
+        <div class="h-md" style="font-size:2vw">不能冤枉好人</div>
         <div class="body-zh"><strong>分母</strong>：模型說會的所有人（TP + FP）<br><strong>高表示</strong>：模型開口通常是對的，誤報少</div>
-        <div class="callout">
-          <div class="q-big">場景：醫療核可、信用評分、垃圾信過濾（不想把正常信丟掉）</div>
+        <div class="callout" style="padding:1vh 1.6vw">
+          <div class="q-big" style="font-size:max(15px,1.32vw)">場景：醫療核可、信用評分、垃圾信過濾（不想把正常信丟掉）</div>
         </div>
       </div>
-      <div class="col" data-anim="right" style="gap:2.2vh">
-        <div class="kicker">Recall · 怕漏報</div>
-        <div class="h-md">一個都不能漏</div>
+      <div class="col" data-anim="right" style="gap:1.4vh">
+        <div class="kicker" style="margin-bottom:0">Recall · 怕漏報</div>
+        <div class="h-md" style="font-size:2vw">一個都不能漏</div>
         <div class="body-zh"><strong>分母</strong>：真的會的所有人（TP + FN）<br><strong>高表示</strong>：真正有問題的大多被抓到，漏報少</div>
-        <div class="callout">
-          <div class="q-big">場景：疾病篩檢、設備異常停機、詐騙偵測（漏掉就慘）</div>
+        <div class="callout" style="padding:1vh 1.6vw">
+          <div class="q-big" style="font-size:max(15px,1.32vw)">場景：疾病篩檢、設備異常停機、詐騙偵測（漏掉就慘）</div>
         </div>
       </div>
     </div>
-    <div class="callout" data-anim style="margin-top:3vh">
-      <div class="q-big">S1-Q24 智慧工廠「漏報率」 → 答 <em>(B) Recall</em>。<br>陷阱例：100 人 1 病人，全猜「沒病」accuracy 99% 但 precision = 0%（不平衡資料 + 少數類重點 → 一定看 P / R）</div>
-      <span class="cite">S1-Q23 交叉驗證目的 → (C) 減少過擬合風險（多次切分平均評估泛化能力）</span>
+    <div class="callout" data-anim style="margin-top:1.6vh;padding:1vh 1.6vw">
+      <div class="q-big" style="font-size:max(14px,1.28vw);line-height:1.4">S1-Q24 智慧工廠「漏報率」 → 答 <em>(B) Recall</em>。<br>陷阱例：100 人 1 病人，全猜「沒病」accuracy 99% 但 precision = 0%（不平衡資料 + 少數類重點 → 一定看 P / R）</div>
+      <span class="cite" style="margin-top:.8vh">S1-Q23 交叉驗證目的 → (C) 減少過擬合風險（多次切分平均評估泛化能力）</span>
     </div>
   </div>
   <div class="foot">
